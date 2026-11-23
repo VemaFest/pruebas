@@ -18,6 +18,9 @@
             <td>{{ $persona->dni }}</td>
             <td>{{ $persona->nombre }}</td>
             <td>{{ $persona->fecha_nacimiento->format('d/m/Y') }}</td>
+            <td>
+                <a href="{{ route('personas.edit', $persona->id) }}">Editar</a>
+            </td>
         </tr>
         @empty
         <tr>
