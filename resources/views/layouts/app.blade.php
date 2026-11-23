@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Personas en Laravel</title>
         <style>
-        .error { color: #a01818; }
-        .exito { color: #14613e; }
+        .error { color: red; }
+        .exito { color: green; }
+        table  { width: 100%; text-align: center; border: gray solid;}
         </style>
     </head>
     <body>
